@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Law of Motion</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Newton's Second Law of Motion</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="first-law.html">First Law</a></li>
+                <li><a href="second-law.html" class="active">Second Law</a></li>
+                <li><a href="third-law.html">Third Law</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>Force Equals Mass Times Acceleration</h2>
+            <div class="law-content">
+                <div class="law-text">
+                    <p><strong>Newton's Second Law states:</strong> "The acceleration of an object as produced by a net force is directly proportional to the magnitude of the net force, in the same direction as the net force, and inversely proportional to the mass of the object."</p>
+                    <p>This is often written as the famous equation: <strong>F = ma</strong></p>
+                    <p>Where:
+                        <ul>
+                            <li>F = force (in Newtons, N)</li>
+                            <li>m = mass (in kilograms, kg)</li>
+                            <li>a = acceleration (in meters per second squared, m/s²)</li>
+                        </ul>
+                    </p>
+                    <h3>Examples from Daily Life:</h3>
+                    <ul>
+                        <li>It takes more force to push a heavy box than a light one</li>
+                        <li>A rocket needs tremendous force to accelerate because of its large mass</li>
+                        <li>Braking distance increases with speed because deceleration requires more force</li>
+                    </ul>
+                </div>
+                <div class="law-image">
+                    <img src="images/fma.jpg" alt="F=ma equation illustration">
+                    <img src="images/rocket.jpg" alt="Rocket launch demonstrating F=ma" class="second-image">
+                </div>
+            </div>
+
+            <div class="calculator">
+                <h3>Force Calculator</h3>
+                <div class="calc-container">
+                    <div class="input-group">
+                        <label for="mass">Mass (kg):</label>
+                        <input type="number" id="mass" placeholder="Enter mass">
+                    </div>
+                    <div class="input-group">
+                        <label for="acceleration">Acceleration (m/s²):</label>
+                        <input type="number" id="acceleration" placeholder="Enter acceleration">
+                    </div>
+                    <button id="calculate-force">Calculate Force</button>
+                    <div id="force-result" class="result"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Physics Form 3 Educational Website. All rights reserved.</p>
+        <p>For educational purposes only.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
