@@ -1,91 +1,70 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Im5yaf49)
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Newton's Laws Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+# This is the URL link to my website:
+## 🌐 [Live Demo](https://laws-of-motion.onrender.com)
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
 
----
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+A responsive educational website demonstrating **Newton's Three Laws of Motion** with interactive features, a mobile-friendly hamburger menu, and a clean, modern design.
 
-Before you write any code, take time to plan:
+## 📚 Features
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+- **Responsive Design** – Works on desktop, tablet, and mobile.
+- **Hamburger Menu** – Collapsible navigation for small screens.
+- **Clickable Law Cards** – Navigate to individual law pages.
+- **Interactive First Law Demo** – Visual representation of inertia.
+- **Second Law Calculator** – Calculates force based on user input.
+- **Clean & Modern UI** – Easy-to-read typography and simple layout.
 
-**Goal:** Show intentional structure and user journey across the site.
+## 📁 Project Structure
 
----
+project/
+│
+├── index.html # Homepage with cards for each law
+├── first-law.html # First Law details + demo
+├── second-law.html # Second Law details + calculator
+├── third-law.html # Third Law details
+├── style.css # Styles for layout, navigation, and responsiveness
+├── script.js # Interactive logic for demos and menu toggle
+└── README.md # Project documentation
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+markdown
+Copy
+Edit
 
-Using your plan, begin building:
+## 🎨 Color Scheme
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+- **Primary:** `#0066cc` (Blue) – Header, buttons, and accents.
+- **Accent:** `#ffcc00` (Yellow) – Hover effects and highlights.
+- **Background:** `#f9f9f9` – Soft neutral background for readability.
+- **Text:** `#333333` – Dark gray for better contrast and reduced eye strain.
 
-Each page should:
+## 🛠️ Setup & Usage
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+1. **Clone or download** this repository.
+2. Open `index.html` in your browser to view the homepage.
+3. Navigate between pages using the top menu or cards.
+4. On mobile, click the hamburger icon to open/close the menu.
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## 📱 Responsive Design
 
----
+- **Desktop:** Full navigation menu is displayed.
+- **Tablet/Mobile:** Hamburger icon appears; clicking toggles menu.
+- **Cards & Content:** Automatically adjust layout to fit screen size.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 📌 Technologies Used
 
-Before deployment, refactor your project to follow production-friendly practices:
+- **HTML5** – Structure & semantic content
+- **CSS3** – Styling & responsive design
+- **JavaScript (Vanilla)** – Interactivity & animations
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+## 🚀 Future Improvements
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+- Add animations for law demonstrations.
+- Include quiz or game section for learning reinforcement.
+- Add audio narration for accessibility.
+- Support multiple languages.
 
----
+## 📄 License
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+This project is open-source and free to use for educational purposes.
