@@ -1,68 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Physics Form 3 - Newton's Laws</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
+      <div class="nav-container">
         <h1>Newton's Laws of Motion</h1>
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="first-law.html">First Law</a></li>
-                <li><a href="second-law.html">Second Law</a></li>
-                <li><a href="third-law.html">Third Law</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="first-law.html">First Law</a></li>
+            <li><a href="second-law.html">Second Law</a></li>
+            <li><a href="third-law.html">Third Law</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
 
     <main>
-        <section class="hero">
-            <img src="images/isaac-newton.jpg" alt="Sir Isaac Newton" class="hero-image">
-            <div class="hero-text">
-                <h2>Understanding Motion</h2>
-                <p>Explore the fundamental principles that govern how objects move</p>
-            </div>
-        </section>
+      <section class="hero">
+        <img
+          src="images/isaac-newton.jpg"
+          alt="Sir Isaac Newton"
+          class="hero-image"
+        />
+        <div class="hero-text">
+          <h2>Understanding Motion</h2>
+          <p>Explore the fundamental principles that govern how objects move</p>
+        </div>
+      </section>
 
-        <section class="intro">
-            <h2>Introduction to Newton's Laws</h2>
-            <p>Sir Isaac Newton's three laws of motion describe the relationship between a body and the forces acting upon it, and its motion in response to those forces. These laws form the foundation of classical mechanics.</p>
-            
-            <div class="law-cards">
-                <div class="card" onclick="location.href='first-law.html'">
-                    <h3>First Law</h3>
-                    <p>Law of Inertia</p>
-                </div>
-                <div class="card" onclick="location.href='second-law.html'">
-                    <h3>Second Law</h3>
-                    <p>F = ma</p>
-                </div>
-                <div class="card" onclick="location.href='third-law.html'">
-                    <h3>Third Law</h3>
-                    <p>Action and Reaction</p>
-                </div>
-            </div>
-        </section>
+      <section class="intro">
+        <h2>Introduction to Newton's Laws</h2>
+        <p>
+          Sir Isaac Newton's three laws of motion describe the relationship
+          between a body and the forces acting upon it, and its motion in
+          response to those forces. These laws form the foundation of classical
+          mechanics.
+        </p>
 
-        <section class="video-section">
-            <h2>Video Explanation</h2>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/kKKM8Y-u7ds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </section>
+        <div class="law-cards">
+          <div class="card" onclick="location.href='first-law.html'">
+            <h3>First Law</h3>
+            <p>Law of Inertia</p>
+          </div>
+          <div class="card" onclick="location.href='second-law.html'">
+            <h3>Second Law</h3>
+            <p>F = ma</p>
+          </div>
+          <div class="card" onclick="location.href='third-law.html'">
+            <h3>Third Law</h3>
+            <p>Action and Reaction</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="video-section">
+        <h2>Video Explanation</h2>
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/kKKM8Y-u7ds"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Physics Form 3 Educational Website. All rights reserved.</p>
-        <p>For educational purposes only.</p>
+      <p>
+        &copy; 2023 Physics Form 3 Educational Website. All rights reserved.
+      </p>
+      <p>For educational purposes only.</p>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
